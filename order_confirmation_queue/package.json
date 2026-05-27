@@ -1,0 +1,14 @@
+{
+    "name": "order_confirmation_queue",
+    "version": "1.0.0",
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "dev": "node src/index.js"
+    },
+    "dependencies": {
+        "express": "^5.2.1",
+        "ioredis": "^5.4.1",
+        "mongoose": "^8.2.1"
+    }
+}
